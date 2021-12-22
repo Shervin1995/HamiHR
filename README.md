@@ -1,23 +1,18 @@
-# HamiHR 
-
-This is BPMS for Human Resources Management 
-
-Developed by Mohammad-Amin Khani (Shervin)
-
-2021.December
-
-[final Video](https://ia601407.us.archive.org/21/items/1400.09.13-hamihr/1400.09.13-hamihr.mp4)
-
+# <span dir="rtl"> معرفی HamiHR </span> 
 
 <div dir="rtl" >
-
-## معرفی پروژه 
 
 نام پروژه: HamiHR BPMS
 
 توسعه دهنده: محمدامین خانی (شروین)
 
 این یک پروژه بزرگ است که برای هلدینگ حامیکت توسط محمد امین خانی  توسعه یافت. 
+
+### رونمایی از پروژه
+
+توصیه میشود حتما 
+[ویدیو Demo](https://ia601407.us.archive.org/21/items/1400.09.13-hamihr/1400.09.13-hamihr.mp4)
+را تماشا کنید! 
 
 ### مشخصات پروژه 
 
@@ -30,11 +25,5 @@ Developed by Mohammad-Amin Khani (Shervin)
 5. امنیت در برابر حملات صفحه لاگین Brute Force با محدودیت زمانی در هنگام ورود و تعداد دفعات امتحان کردن رمز
 6. ورود با رمز یکبار مصرف ارسال به موبایل (مانند رمز دوم بانکی)
 7. چارت سازمانی برای نمایش درختی افراد سازمان و پوزیشن های مختلف
-
-### رونمایی از پروژه
-
-توصیه میشود حتما 
-[ویدیو Demo](https://ia601407.us.archive.org/21/items/1400.09.13-hamihr/1400.09.13-hamihr.mp4)
-را تماشا کنید! 
 
 </div>
