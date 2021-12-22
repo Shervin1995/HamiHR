@@ -1,0 +1,45 @@
+[
+    {
+        "id": 200, 
+        "leveloneID": 1, 
+        "leveltwoID": 100, 
+        "levelthreeID": null,
+        "personalCode": "0101",
+        "userID": 500
+    },{
+        "id": 201, 
+        "leveloneID": 1, 
+        "leveltwoID": null, 
+        "levelthreeID": null,
+        "personalCode": "01",
+        "userID": 500
+    },{
+        "id": 202, 
+        "leveloneID": 2, 
+        "leveltwoID": 101, 
+        "levelthreeID": null,
+        "personalCode": "0201",
+        "userID": 501
+    },{
+        "id": 203, 
+        "leveloneID": 2, 
+        "leveltwoID": null, 
+        "levelthreeID": null,
+        "personalCode": "02",
+        "userID": 502
+    },{
+        "id": 204, 
+        "leveloneID": 1, 
+        "leveltwoID": 100, 
+        "levelthreeID": 1000,
+        "personalCode": "010101",
+        "userID": 503
+    },{
+        "id": 205, 
+        "leveloneID": 1, 
+        "leveltwoID": 100, 
+        "levelthreeID": 1002,
+        "personalCode": "010102",
+        "userID": 504
+    }
+]

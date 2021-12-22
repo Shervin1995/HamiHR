@@ -1,0 +1,10 @@
+.profileTable td{
+    background-color: #fff;
+}
+
+.profileTable td > span{
+    display: block;
+    min-height: 28px;
+    padding: 10px;
+}
+ 

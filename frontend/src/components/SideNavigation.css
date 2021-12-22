@@ -1,0 +1,38 @@
+
+
+/* ----------------------------------------------- */
+/* nav item with child*/
+/* ----------------------------------------------- */
+.collapsible-header,
+.Ripple-parent{
+    font-family: "IRANSansWeb(FaNum)";
+    text-align: right;
+}
+
+.side-nav.wide .collapsible a{
+    padding-right: 23px; 
+}
+
+.side-nav .fa-angle-down.rotate-icon{
+    right: auto;
+}
+
+.side-nav .collapsible-header i.mr-2{ 
+    position: absolute;
+    right: 0;
+    bottom: 35%;
+}
+
+/* ----------------------------------------------- */
+/* single nav item (whithout submenu) */
+/* ----------------------------------------------- */
+.sv-normal > i{
+    position: absolute;
+    left: auto;
+    right: 8px;
+    top: 10px;
+    margin-left: 10px;
+}
+.sv-normal{
+    color: #424242;
+}

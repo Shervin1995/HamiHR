@@ -1,0 +1,56 @@
+
+
+#login  {
+  background: linear-gradient(to top, rgb(136, 136, 136,.3), rgba(136, 136, 136, 0.3)), url('../../static/login.png') ;
+  background-size: cover;
+  height: 100vh;
+}
+
+#login .card {
+  background-color: rgba(229, 228, 255, 0.3);
+} 
+#login h6 {
+  line-height: 1.7;
+}
+
+#login .form-check {
+  margin-bottom: 0!important;
+}
+#login .md-form label {
+  color: #ffffff;
+}
+#login .md-form input[type=mobile]:focus:not([readonly])+label,
+#login .md-form input[type=password]:focus:not([readonly])+label,
+#login .md-form input[type=email]:focus:not([readonly])+label {
+  color: #8EDEF8;
+}
+#login .md-form input[type=mobile]:focus:not([readonly]),
+#login .md-form input[type=password]:focus:not([readonly]),
+#login .md-form input[type=email]:focus:not([readonly]) {
+  border-bottom: 1px solid #8EDEF8;
+  box-shadow: 0 1px 0 0 #8EDEF8;
+}
+
+/* ----------------------------------- */
+/*        for otp inputs            */
+/* ----------------------------------- */
+  /* Chrome, Safari, Edge, Opera */
+  .otp-form-psy input::-webkit-outer-spin-button,
+  .otp-form-psy input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+  }
+  
+  /* Firefox */
+  .otp-form-psy input[type=number] {
+    -moz-appearance: textfield;
+  }
+  
+  .otp-form-psy input[type=number] {
+    width: 50px;
+    font-size: 2em;
+    text-align: center; 
+  }
+
+  input.form-control{border: none; }
+ 

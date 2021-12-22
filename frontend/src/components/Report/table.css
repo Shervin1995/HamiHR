@@ -1,0 +1,36 @@
+.ReportList th,
+.ReportList td
+{
+    text-align: right !important;
+    width: 300px !important;
+    /* 
+    width: 150px !important; 
+    first set d-flex justify-content-end to mother of <myTable />
+    */
+} 
+
+/* date & day */
+.ReportList th:nth-child(4),
+.ReportList td:nth-child(4),
+.ReportList th:nth-child(3),
+.ReportList td:nth-child(3){
+    width: 50px !important; 
+}
+
+/* id */
+.ReportList th:nth-child(5),
+.ReportList td:nth-child(5){
+    width: 50px !important;
+    padding: 10px;
+    text-align: left !important;
+}
+
+.ReportList th,
+.ReportList td:first-child
+{
+    width: auto !important;
+    /* 
+    width: 150px !important; 
+    first set d-flex justify-content-end to mother of <myTable />
+    */
+} 

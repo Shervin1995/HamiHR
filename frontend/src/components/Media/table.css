@@ -1,0 +1,27 @@
+.medialist th,
+.medialist td
+{
+    text-align: right !important;
+    /* width: 300px !important; */
+    /* 
+    width: 150px !important; 
+    first set d-flex justify-content-end to mother of <myTable />
+    */
+} 
+
+/*  */
+.medialist th:nth-child(3),
+.medialist td:nth-child(3){
+    width: 50px !important; 
+}
+
+
+.medialist th,
+.medialist td:first-child
+{
+    width: auto !important;
+    /* 
+    width: 150px !important; 
+    first set d-flex justify-content-end to mother of <myTable />
+    */
+} 

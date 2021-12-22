@@ -1,0 +1,59 @@
+
+/* --------------------------------------- */
+/*    background color              */
+/* --------------------------------------- */
+.orgchart{
+  background-image: linear-gradient(
+    90deg, 
+    rgba(255, 255, 255, 0.15) 10%, 
+    rgba(255, 255, 255, 0) 10%), 
+    linear-gradient(rgba(255, 255, 255, 0.911) 10%, 
+    rgba(255, 255, 255, 0) 10%);
+}
+
+/* --------------------------------------- */
+/*    background color              */
+/* --------------------------------------- */ 
+.orgchart > ul > li > ul li:only-child::before {
+  width: 2px;
+  color: gray; 
+}
+
+.orgchart > ul > li > ul li > .oc-node::before { 
+  background-color: rgba(46, 48, 187, 0.8) !important;
+}
+.orgchart ul li .oc-node:not(:only-child)::after { 
+  background-color: rgba(46, 48, 187, 0.8) !important;
+}
+.orgchart > ul > li > ul li::before { 
+  border-top: 2px solid rgba(46, 48, 187, 0.8) !important;
+}
+/* --------------------------------------- */
+/*    item              */
+/* --------------------------------------- */
+
+/* mother */
+.orgchart-item{
+  border: solid 1px gray;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: .2em;
+}
+
+/* childs */
+.position-orgchart,
+.fullname-orgchart{
+  padding: .2em .5em;
+  color: #424242;
+  font-family: "IRANSansWeb(Fanum)";
+}
+.position-orgchart{
+  font-size: 8px; 
+  font-weight: 700;
+}
+.fullname-orgchart{
+  background-color: white;
+  font-size: 5px;
+  color: gray;
+}
+ 

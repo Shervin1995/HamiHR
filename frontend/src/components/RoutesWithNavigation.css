@@ -1,0 +1,13 @@
+.side-nav{
+    left: auto;
+    right: 0;
+    transform: translateX(100%);
+}
+
+.side-slide-exit-done{
+    transform: translateX(100%);
+}
+
+.side-slide-enter-done{
+    transform: translateX(0%);
+}

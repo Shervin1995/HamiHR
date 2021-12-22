@@ -1,0 +1,33 @@
+.TicketsList th,
+.TicketsList td
+{
+    text-align: right !important;
+    /* width: 300px !important; */
+    /* 
+    width: 150px !important; 
+    first set d-flex justify-content-end to mother of <myTable />
+    */
+} 
+
+/* date & day */
+.TicketsList th:nth-child(1),
+.TicketsList td:nth-child(1),
+.TicketsList th:nth-child(2),
+.TicketsList td:nth-child(2),
+.TicketsList th:nth-child(3),
+.TicketsList td:nth-child(3),
+.TicketsList th:nth-child(7),
+.TicketsList td:nth-child(7){
+    width: 50px !important; 
+}
+
+
+.TicketsList th,
+.TicketsList td:first-child
+{
+    width: auto !important;
+    /* 
+    width: 150px !important; 
+    first set d-flex justify-content-end to mother of <myTable />
+    */
+} 

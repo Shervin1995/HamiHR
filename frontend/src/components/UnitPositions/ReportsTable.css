@@ -1,0 +1,26 @@
+.clerkList .UserReportsList th,
+.clerkList .UserReportsList td
+{
+    text-align: right !important;
+    width: 5px !important;
+    /* 
+    width: 150px !important; 
+    first set d-flex justify-content-end to mother of <myTable />
+    */
+} 
+
+
+.clerkList .UserReportsList th:nth-child(2),
+.clerkList .UserReportsList td:nth-child(2){
+    width: 300px !important;
+}
+
+.clerkList .UserReportsList th,
+.clerkList .UserReportsList td:first-child
+{
+    width: auto !important;
+    /* 
+    width: 150px !important; 
+    first set d-flex justify-content-end to mother of <myTable />
+    */
+}  

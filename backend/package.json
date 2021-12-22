@@ -1,0 +1,25 @@
+{
+  "name": "mongo-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server/app.js",
+  "scripts": {
+    "start": "nodemon -e html,css,js,json,ejs --watch server"
+  },
+  "author": "junior",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "inquirer": "^8.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.2",
+    "pdfkit": "^0.12.1",
+    "persian-date": "^1.1.0",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "rimraf": "^3.0.2",
+    "sequelize": "^6.6.5"
+  }
+}

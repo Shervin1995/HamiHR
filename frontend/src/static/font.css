@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: "IRANSansWeb(FaNum)"; 
+    src: url("./font/IRANSans\(FaNum\).ttf") format("truetype"); 
+  font-weight: 400; 
+  } 
+  @font-face {
+    font-family: "IRANSansWeb(FaNum)"; 
+    src: url("./font/IRANSans\(FaNum\)_Black.ttf") format("truetype"); 
+  font-weight: 600; 
+  } 
+  @font-face {
+  font-family: "IRANSansWeb(FaNum)"; 
+  src: url("./font/IRANSans\(FaNum\)_Bold.ttf") format("truetype"); 
+  font-weight: 700; 
+  } 
+  @font-face {
+  font-family: "IRANSansWeb(FaNum)"; 
+  src: url("./font/IRANSans\(FaNum\)_Medium.ttf") format("truetype");
+  font-weight: 500; 
+  } 
+  .irs{
+    font-family: "IRANSansWeb(FaNum)"; 
+    direction: rtl;
+  }

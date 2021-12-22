@@ -1,0 +1,9 @@
+
+/* --------------------------------------- */
+/* checkboxes */
+/* --------------------------------------- */
+.custom-control-label::after,
+.custom-control-label::before{
+    left: auto !important;
+    right: -1.5rem;
+}
